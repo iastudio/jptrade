@@ -140,7 +140,15 @@
 
   &.item--jp {
     height: 350px;
-    background: url('../i/item-1-bg.png') right bottom no-repeat #f24d44;
+    &.item--jp--1 {
+      background: url('../i/item-1-bg.png') right bottom no-repeat #f24d44;
+    }
+    &.item--jp--2 {
+      background: url('../i/item-1-1-bg.png') right bottom no-repeat #f24d44;
+    }
+    &.item--jp--3 {
+      background: url('../i/item-1-2-bg.png') right bottom no-repeat #f24d44;
+    }
     .item__img .item__img__logo {
       background: url('../i/item-1-logo.png') center center no-repeat #fff;
     }
