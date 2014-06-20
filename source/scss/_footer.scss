@@ -1,0 +1,19 @@
+footer {
+	border-top: 1px solid #E6E6E6;
+	padding: 30px 0;
+	margin-top: 70px;
+	.footer__left {
+		width: 400px;
+		float: left;
+	}
+	.footer__right {
+		width: 400px;
+		float: right;
+		text-align: right;
+	}
+	.icon-iastudio {
+		position: relative;
+		top: 5px;
+		margin-right: 10px;
+	}
+}
